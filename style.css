@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/bg1.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    padding: 23px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header nav ul{
+    display: block;
+}
+header nav ul li{
+    padding: 0 20px;
+    display:block;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul li a:hover{
+    border-bottom: 3px solid red;
+}
+header nav span{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+header nav ul #firstLi a{border-bottom: 3px solid red;}
+header section .text{
+    text-align: center;
+    margin: auto;
+    min-width: 60%;
+    padding-top: 50px;
+}
+header section .text *{
+    padding: 5px;
+    color: white;
+    line-height: 1.5;
+}
+header section .text h4,h3,h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}   
+header section .text h4{
+    font-size: 1.5em;
+} 
+header section .text h3{
+    font-size: 1.9em;
+} 
+header section .text h2{
+    font-size: 2.8em;
+    letter-spacing: 5px;
+    font-weight: bold;
+} 
+#contactBtn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 30px 0;
+}
+#contactBtn:hover{
+    background-color: white;
+    color: black;
+}
+.whyChoose{
+    width: 100%;
+    min-height: 65vh;
+    background-image: url(img/us-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.whyChoose .whyChoose-content{
+    padding: 50px 0;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.whyChoose .whyChoose-content h2{
+    color: white;
+}
+.whyChoose .whyChoose-content .h2-line{
+    padding: 0;
+    background-color: red;
+    width: 80px;
+    height: 5px;
+    margin: auto;
+}
+.services{
+    padding: 50px 0;
+    display: block;
+}
+.services h2{font-size: 1.2em;}
+.services p{
+    color: white;
+    line-height: 1.5;
+    padding: 5px 10px;
+}
+.heathy-mind {
+    width: 100%;
+    min-height: 75vh;
+    background-image: url(img/healthy-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.heathy-mind-content{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 100px 0;
+}
+.heathy-mind-content *{padding: 20px 0;}
+.heathy-mind-content h2{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+.heathy-mind-content p{
+    color: white;
+    line-height: 1.5;
+}
+.heathy-mind-content button{
+    padding: 10px 35px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.heathy-mind-content button:hover{
+    background-color: white;
+    color: black;
+}
+.trainers{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/trainer-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.trainers-content{
+    padding: 50px 0;
+    text-align: center;
+}
+.trainers-content h2{
+    text-align: center;
+    color: white;
+}
+.trainers .h2-line{
+    padding: 0;
+    background-color: red;
+    width: 50px;
+    height: 5px;
+    margin: auto;
+}
+.trainers .trainerCard{
+    margin: auto;
+    width: 85%;
+    display: block;
+}
+.trainers .trainerCard img{
+    max-width: 350px;
+    height: 350px;
+    border-radius:25px ;
+    object-fit: cover;
+}
+.trainers .trainerCard div{
+    text-align: center;
+    margin-top: 30px;
+}
+.trainers .trainerCard div h2{
+    text-transform: capitalize;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+.trainers .trainerCard div ul{
+    border-radius: 30px;
+    padding: 15px;
+    margin: auto;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: white;
+}
+.trainers .trainerCard div ul li a{
+    color: red;
+    font-size: 1.5em;
+}
+.contactUs{
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #27223F;
+    display: block;
+}
+.contactUs .imgs{
+    width: 100%;
+    height: 100%;
+}
+.contactUs .imgs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contactUs .form{
+    width: 100%;
+    text-align: left;
+}
+.contactUs .form h2{
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+}
+.contactUs .form .h2-line{
+    padding: 0;
+    background-color: red;
+    width: 50px;
+    height: 5px;
+}
+.contactUs .form form{
+    max-width: 470px;
+    text-align: center;
+    margin: auto;
+}
+.contactUs .form form input{
+    margin: auto;
+    display: block;
+    margin: 30px 0;
+    width: 300px;
+    height: 50px;
+    outline: none;
+    padding: 0 10px;
+}
+#Message{height: 100px;}
+.contactUs .form form button{
+    padding: 10px 50px;
+    background-color: #FF2953;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    min-height: 30vh;
+    background-color: #252233;
+}
+.about-content{
+    padding: 50px;
+    margin: auto;
+    display: block;
+}
+.about-content div{
+    text-align: center;
+    color: white;
+}
+.about-content div i{font-size: 1.8em;}
+.about-content div p{
+    margin-top: 20px;
+    font-weight: 400;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width:992px){
+    header nav ul li{display : inline-block;}
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header section .text{
+        text-align: center;
+        margin: auto;
+        width: 60%;
+        padding-top: 50px;
+    }
+    .services{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .trainers .trainerCard{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contactUs{
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+    .contactUs .imgs img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contactUs .form form{width: 100%;  }
+    .contactUs .form form input{width: 400px;   }
+    .about{height: 30vh;}
+    .about-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; 
+    }
+}
+@media only screen and (max-width:1075px){
+    .trainers .trainerCard img{width: 100%;}
+}
